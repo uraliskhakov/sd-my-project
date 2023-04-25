@@ -1,0 +1,334 @@
+body {
+    font-family: 'IBM Plex Mono', monospace;
+    width: 100%;
+    background-color: #F5F5F5;
+} 
+.container {
+    margin: 0 auto;
+    width: 1400px;
+    background-color: #000000;
+}
+
+   
+.foto {
+    position: relative;
+    width: 1400px;
+    height: 765px;
+    background-image: url('resources/myfoto.png');
+} 
+.navig {
+    
+    float: right;
+    right: 124px;
+    padding-bottom: 2px;
+}    
+.navig_link {
+    margin-top: 33px;
+    margin-right: 42px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    text-decoration: none;
+    color: #FFFFFF;
+    letter-spacing: -0.03em;
+    
+}  
+.navig_link:hover{
+    color: #1BFF07;
+}
+
+.navig_link:last-child{
+    margin-right: 124px;
+}
+.navi {
+    position: absolute;
+    margin-top: -4px;
+    width: 1400px;
+    height: 55px;
+  
+}
+.nav_background {
+    position: relative;
+    left: 123px;
+    top: 40px;
+    width: 130px;
+    height: 39px;
+    background-color: #000000;  
+    border-radius: 100px;
+    
+}
+
+
+.nav_logo {
+    margin-left: 10px;
+    margin-top: -10px;
+    position: absolute;
+    width: 109px;
+    height: 55px;
+    font-size: 42.41px;
+    line-height: 55px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -4.67px;
+    color: #1BFF07;
+
+    background-position: center;
+    
+
+}
+p.whatDo {
+    position: absolute;
+    left: 124px;
+    bottom: 327px;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+    letter-spacing: -0.03em;
+}
+h1.whoI {
+    position: absolute;
+    left: 119px;
+    bottom: 89px;
+    font-size: 80px;
+    line-height: 70px;
+    letter-spacing: -0.03em;
+    color: #1BFF07;
+}
+
+.container_long {
+    padding: 150px 125px 150px 125px;
+
+}
+
+.home_img {
+    margin-top: 40px;
+    position: relative;
+    width: 1150px ;
+    height: 550px;
+    background-image: url(resources/projects/home.png);
+}
+.glass_img {
+    position: relative;
+    width: 1150px ;
+    height: 550px;
+    background-image: url(resources/projects/glass.png);
+}
+.fesiyen_img {
+    position: relative;
+    width: 1150px ;
+    height: 550px;
+    background-image: url(resources/projects/fesiyen.png);
+}
+h2 {
+    font-size: 55px;
+    line-height: 72px;
+    color: #FFFFFF;
+    letter-spacing: -0.03em;
+}
+h3.projects {
+    position: absolute;
+    bottom: 94px;
+    left: 50px;
+    font-size: 35px;
+    line-height: 46px;
+    color: #FFFFFF;
+    letter-spacing: -0.03em; 
+}
+p.projects {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    font-size: 30px;
+    line-height: 39px;
+    color: #FFFFFF;
+    letter-spacing: -0.03em; 
+}
+.btn {
+    display: block;
+    
+    margin-top: 80px;
+    padding: 56px 85px 58px 118px;
+    width: 582px;
+    height: 153px;
+    font-size: 30px;
+    line-height: 39px;
+    text-decoration: none;
+    border: 1px solid #1BFF07;
+    color: #000000;
+    border-radius: 10px;
+    background-color: #1BFF07;
+    letter-spacing: -0.03em; 
+
+}
+.btn:hover {
+    color: #1BFF07;
+    background-color: #000000;
+}
+
+
+.myCompetencies {
+    margin-top: 150px; 
+}
+
+li.myCompetencies {
+    margin-top: 61px;
+}
+li.myCompetencies:first-child {
+    margin-top: 48px;
+}
+
+
+h3.myCompetencies {
+    margin-top: 12px;
+    font-size: 35px;
+    line-height: 46px;
+    color:  #1BFF07;
+    letter-spacing: -0.03em; 
+}
+p.myCompetencies {
+    margin-top: 17px;
+    font-size: 22px;
+    line-height: 28.6px;
+    color: #FFFFFF;
+    letter-spacing: -0.03em; 
+}
+h3.Ihelp {
+    margin-top: 152px;
+    font-size: 35px;
+    line-height: 46px;
+    color: #FFFFFF;
+    letter-spacing: -0.03em; 
+}
+li.Ihelp {
+    margin-top: 71px;
+     
+}
+
+li.Ihelp:last-child {
+    margin-top: 137px;  
+}
+
+.Ihelp_black {
+    position: relative;
+    width: 1150px;
+    height: 283px;
+    background-image: url(resources/Ihelp/back_black.png);
+}
+
+h2.Ihelp_black_ {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    font-size: 55px;
+    line-height: 72px;
+    color:#1BFF07;
+    letter-spacing: -0.03em;
+}
+p.Ihelp_black_ {
+    position: absolute;
+    top: 127px;
+    left: 40px;
+    font-size: 22px;
+    line-height: 28.6px;
+    color: #FFFFFF;
+    letter-spacing: -0.03em;
+}
+
+.link {
+    margin-top: 0px;
+    position: relative;
+    width: 1400px;
+    height: 717px;
+    background-image: url(resources/black.png);
+}
+h3.lin {
+    position: absolute;
+    top: 320px;
+    left: 125px;
+    font-size: 35px;
+    line-height: 60px;
+    color: #FFFFFF;
+    letter-spacing: -0.03em; 
+    
+}
+
+a.insta {
+    position: absolute;
+    top: 408px;
+    left: 125px;
+    font-size: 60px;
+    line-height: 60px;
+    color: #FFFFFF;
+    text-decoration: none;
+    letter-spacing: -0.03em; 
+}
+a.insta:hover {
+    color: #1BFF07;
+}
+a.telega {
+    position: absolute;
+    top: 488px;
+    left: 125px;
+    font-size: 60px;
+    line-height: 60px;
+    color: #FFFFFF;
+    text-decoration: none;
+    letter-spacing: -0.03em; 
+}
+
+a.telega:hover {
+    color: #1BFF07;
+}
+
+a.mail {
+    position: absolute;
+    top: 568px;
+    left: 125px;
+    font-size: 60px;
+    line-height: 60px;
+    color: #FFFFFF;
+    text-decoration: none;
+    letter-spacing: -0.03em; 
+}
+
+a.mail:hover {
+    color: #1BFF07;
+}
+
+.link_img {
+    position: absolute;
+    left: 674px;
+    height: 717px;
+}
+
+
+.signature {
+    margin-top: 149px;
+    position: relative;
+    width: 1400px;
+    height: 289px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+}
+
+h4.signature_text {
+    position: absolute;
+    top: 76px;
+    left: 125px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 22px;
+    line-height: 31px;
+    color: #000000;
+    letter-spacing: -0.03em;
+}
+
+p.signature_text {
+    position: absolute;
+    top: 170px;
+    left: 125px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    letter-spacing: -0.03em;
+}
